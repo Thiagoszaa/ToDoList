@@ -12,4 +12,6 @@ Esta é uma aplicação web full stack desenvolvida para gerenciar uma lista de 
  ### JAVASCRIPT ✅
  ### API RESTful ✅
  ### Sqlite ✅
+ ## Node.js ✅
+ ## Express.js ✅
 
