@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000000, #353536);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+
+}
+
+.container {
+  
+    padding: 30px;
+    background-color: #1f1e1e;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative; 
+    left: 770px;
+    top: 120px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+
+.adicionar {
+    padding: 25px;
+    background-color: #1f1e1e;
+    width: 295px;
+    height: 90px;
+    border-radius: 10px;
+    position: relative; 
+    left: 70px;
+    bottom: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.remover {
+    padding: 25px;
+    background-color: #1f1e1e;
+    width: 295px;
+    height: 90px;
+    border-radius: 10px;
+    position: relative; 
+    left: 70px;
+    bottom: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.atualizar {
+    padding: 25px;
+    background-color: #1f1e1e;
+    width: 295px;
+    height: 90px;
+    border-radius: 10px;
+    position: relative; 
+    left: 70px;
+    bottom: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.adicionar:hover , .remover:hover , .atualizar:hover, .container:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    color: aqua;
+  }
+
+  #add-task-button , #remove-task-button , #att-task-button {
+    transform: scale(1.08);
+    color: white;
+    background-color: #1f1e1e;
+    border: none;
+    font-size: 24px;
+    
+
+  }
+
+  #new-task-input, button, #task-to-remove, #task-to-update,input {
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 18px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  button:hover{
+   
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    color: rgb(53, 51, 51);
+    font-size: 24px;
+
+  }
+
