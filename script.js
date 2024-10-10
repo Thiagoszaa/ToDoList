@@ -129,3 +129,11 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById('remove-task-button').addEventListener('click', removeTask);
     document.getElementById('att-task-button').addEventListener('click', updateTask);
 });
+
+const toggleButton = document.getElementById('toggle-mode');
+const body = document.body;
+
+toggleButton.addEventListener('click', () => {
+  body.classList.toggle('light-mode');
+});
+
